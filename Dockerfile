@@ -10,6 +10,11 @@ ENV LC_ALL ja_JP.UTF-8
 ENV TZ JST-9
 ENV TERM xterm
 
-RUN apt-get install -y vim less
-RUN pip install --upgrade pip
-RUN pip install --upgrade setuptools
+RUN apt-get install -y vim less &&\
+    pip install --upgrade pip &&\
+    pip install --upgrade setuptools
+
+ADD ./requirements.txt ./
+RUN pip install -r requirements.txt
+
+# RUN SOMETHING

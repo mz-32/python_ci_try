@@ -1,0 +1,11 @@
+cffi==1.13.2
+cryptography==2.8
+greenlet==0.4.15
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+msgpack==0.6.2
+neovim==0.3.1
+pycparser==2.19
+pynvim==0.4.0
+PyYAML==5.2
+six==1.13.0
