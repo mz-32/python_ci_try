@@ -17,4 +17,5 @@ RUN apt-get install -y vim less &&\
 ADD ./requirements.txt ./
 RUN pip install -r requirements.txt
 
-# RUN SOMETHING
+ADD ./src /root/src
+RUN python /root/src/startup.py
