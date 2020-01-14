@@ -14,8 +14,8 @@ RUN apt-get install -y vim less &&\
     pip install --upgrade pip &&\
     pip install --upgrade setuptools
 
-ADD ./requirements.txt ./
-RUN pip install -r requirements.txt
+#ADD ./requirements.txt ./
+#RUN pip install -r requirements.txt
 
 ADD ./ /root/opt/
 RUN python /root/opt/src/startup.py
