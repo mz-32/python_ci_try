@@ -1,7 +1,7 @@
 asgiref==3.2.3
 beautifulsoup4==4.8.2
 Django==3.0.2
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 feedparser==5.2.1
 Janome==0.3.10
 joblib==0.14.1
